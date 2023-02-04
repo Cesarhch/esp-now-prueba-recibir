@@ -2,7 +2,7 @@
 #include <WiFi.h>
 #include <esp_now.h>
 
-uint8_t broadcastAddress[] = {0x30, 0xAE, 0xA4, 0x04, 0x10, 0x3C};
+uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 
 // Structure example to send data
 // Must match the receiver structure
